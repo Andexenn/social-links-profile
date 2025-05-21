@@ -28,8 +28,8 @@ body{
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
     width: 300px;
-    height: 400px;
-    margin: 40px 0;
+    min-height: 400px;
+    margin: 40px auto;
 }
 
 /** ================== heading ==================== */
@@ -75,20 +75,28 @@ body{
 .links{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     width: 100%;
+    align-items: center;
 }
 
 .btn{
     color: white;
     font-weight: 500;
-    padding: 10px;
+    padding: 15px;
     background-color: hsl(0, 0%, 20%);
     margin-bottom: 15px;
     width: 100%;
-    display: inline-block;
+    display: block; 
     text-align: center;
     border-radius: 5px;
     font-size: 16px;
+    cursor: url('./assets/images/cursor.cur'), pointer;
+}
+
+.btn:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
 }
 
 
