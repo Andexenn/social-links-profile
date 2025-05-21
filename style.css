@@ -1,0 +1,94 @@
+/** ================== prepare ================= */
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+:root{
+    box-sizing: border-box;
+}
+/** ================== common ==================== */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    padding: 40px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    margin: 40px 0;
+}
+
+/** ================== heading ==================== */
+
+.container img{
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 90px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.heading{
+    margin-bottom: 15px;
+}
+
+.heading__name{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1px;
+    font-size: 24px
+}
+
+.heading__address{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.heading__major{
+    color:hsl(0, 0%, 100%);
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px;
+}
+
+/** ================== links ==================== */
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn{
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
