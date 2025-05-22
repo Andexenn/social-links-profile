@@ -27,8 +27,8 @@ body{
     padding: 40px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
-    width: 300px;
-    min-height: 400px;
+    width: 240px;
+    min-height: 320px;
     margin: 40px auto;
 }
 
@@ -37,10 +37,10 @@ body{
 .container img{
     border-radius: 50%;
     margin: 0 auto;
-    width: 90px;
+    width: 70px;
     object-fit: cover;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .heading{
@@ -52,7 +52,7 @@ body{
     font-weight: 600;
     text-align: center;
     margin-bottom: 1px;
-    font-size: 24px
+    font-size: 18px
 }
 
 .heading__address{
@@ -60,15 +60,15 @@ body{
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 14px;
+    margin-bottom: 18px;
+    font-size: 12px;
 }
 
 .heading__major{
     color:hsl(0, 0%, 100%);
     font-weight: 400;
     text-align: center;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 /** ================== links ==================== */
@@ -83,14 +83,14 @@ body{
 .btn{
     color: white;
     font-weight: 500;
-    padding: 15px;
+    padding: 10px;
     background-color: hsl(0, 0%, 20%);
     margin-bottom: 15px;
     width: 100%;
     display: block; 
     text-align: center;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: url('./assets/images/cursor.cur'), pointer;
 }
 
@@ -99,4 +99,8 @@ body{
     color: black;
 }
 
-
+@media(max-width: 375px){
+    .container{
+        width: 180px;
+    }
+}
